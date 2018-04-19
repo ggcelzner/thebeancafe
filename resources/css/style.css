@@ -1,0 +1,167 @@
+/*-------------- BASIC SETUP -----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #c69c2d;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.clearfix {zoom: 1}
+.clearfix {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*------------------ HEADER ---------------------*/
+
+header {
+    background-image: url(img/hero.png);
+    background-size: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.logo {
+    width: 250px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.77));
+}
+/*------------------ REUSABLE COMPONENTS -----------------*/
+
+section {
+    padding: 80px 0;
+    height: 500px;
+
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding-left: 1%;
+}
+
+.bold-italic {
+    font-weight:500;
+    font-style: italic;
+}
+
+.extra-light-italic {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.bold {
+    font-weight:500;
+}
+
+/*------------ ICONS -------------------*/
+
+.icon-small {
+    font-size: 200%; 
+}
+/*----------------- GRAND OPENING -----------------*/
+
+.opening-box {
+    height: 320px;
+    width: 600px;
+}
+
+.opening-box-cof {
+    width: 500px;
+    height: 320px;
+}
+.section-opening {
+    background-image: url(img/bota_green.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.opening-box:first-child {
+    padding-top: 1%;
+    text-align: center; 
+    background: #fff;
+    
+}
+
+.opening-box:last-child {
+    text-align: center;
+    padding-bottom: 1%
+    
+}
+
+.bean-coffee {
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 40%;
+}
+
+h2 {
+    font-size: 180%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+.section-opening p {
+    line-height: 28px;
+}
+
+.date {
+    padding-bottom: 5%;
+    letter-spacing: 0.5px;
+}
+
+/*----------------- MENU ITEMS --------------------*/
+
+.box img {
+    padding-top: 3%;
+    margin-left: 15%; 
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+.box p {
+    padding-top: 3%;
+    font-size: 93%;
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+/*-------------------- NEWSLETTER -------------------*/
+
+.newsletter {
+    padding: 0;
+    background-image: url(img/bota_mustard.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.newsletter img {
+  margin-top: -2%; 
+}
